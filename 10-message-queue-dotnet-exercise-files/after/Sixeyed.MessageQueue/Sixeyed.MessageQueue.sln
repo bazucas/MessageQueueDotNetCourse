@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{895466DB-AEF3-4FB3-9D45-7E8AF0AE8CC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F284829A-0153-45B1-86FF-C051B13ECDE4}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MessageHandlers", "MessageHandlers", "{31524EFA-554F-400A-AC63-128F1C10FDFE}"
+	ProjectSection(SolutionItems) = preProject
+		Messaging.config = Messaging.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Commands", "Commands", "{FDF79D64-3A53-44F2-A682-29B55983977D}"
+	ProjectSection(SolutionItems) = preProject
+		InstallHandlers.cmd = InstallHandlers.cmd
+		StartHandlers.cmd = StartHandlers.cmd
+		StopHandlers.cmd = StopHandlers.cmd
+		UninstallHandlers.cmd = UninstallHandlers.cmd
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sixeyed.MessageQueue.Integration", "Sixeyed.MessageQueue.Integration\Sixeyed.MessageQueue.Integration.csproj", "{7F970F56-C093-49E2-9774-4C896446FB5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sixeyed.MessageQueue.Web", "Sixeyed.MessageQueue.Web\Sixeyed.MessageQueue.Web.csproj", "{D32B19AE-3ABF-441A-8730-5DE3061BB95F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sixeyed.MessageQueue.Messages", "Sixeyed.MessageQueue.Messages\Sixeyed.MessageQueue.Messages.csproj", "{4F449647-261C-463E-B568-F29CEED78444}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sixeyed.MessageQueue.Handler", "Sixeyed.MessageQueue.Handler\Sixeyed.MessageQueue.Handler.csproj", "{02C664CC-82A8-495F-A01C-AC2C7E1B3405}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sixeyed.MessageQueue.Messaging", "Sixeyed.MessageQueue.Messaging\Sixeyed.MessageQueue.Messaging.csproj", "{A50E8025-E49F-49EB-8A37-518632BB93A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sixeyed.MessageQueue.EndToEnd.Tests", "Sixeyed.MessageQueue.EndToEnd.Tests\Sixeyed.MessageQueue.EndToEnd.Tests.csproj", "{7220B8F4-83D0-456A-910B-BE821B243816}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F970F56-C093-49E2-9774-4C896446FB5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F970F56-C093-49E2-9774-4C896446FB5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F970F56-C093-49E2-9774-4C896446FB5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F970F56-C093-49E2-9774-4C896446FB5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D32B19AE-3ABF-441A-8730-5DE3061BB95F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D32B19AE-3ABF-441A-8730-5DE3061BB95F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D32B19AE-3ABF-441A-8730-5DE3061BB95F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D32B19AE-3ABF-441A-8730-5DE3061BB95F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F449647-261C-463E-B568-F29CEED78444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F449647-261C-463E-B568-F29CEED78444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F449647-261C-463E-B568-F29CEED78444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F449647-261C-463E-B568-F29CEED78444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02C664CC-82A8-495F-A01C-AC2C7E1B3405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02C664CC-82A8-495F-A01C-AC2C7E1B3405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02C664CC-82A8-495F-A01C-AC2C7E1B3405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02C664CC-82A8-495F-A01C-AC2C7E1B3405}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A50E8025-E49F-49EB-8A37-518632BB93A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A50E8025-E49F-49EB-8A37-518632BB93A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A50E8025-E49F-49EB-8A37-518632BB93A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A50E8025-E49F-49EB-8A37-518632BB93A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7220B8F4-83D0-456A-910B-BE821B243816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7220B8F4-83D0-456A-910B-BE821B243816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7220B8F4-83D0-456A-910B-BE821B243816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7220B8F4-83D0-456A-910B-BE821B243816}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F284829A-0153-45B1-86FF-C051B13ECDE4} = {895466DB-AEF3-4FB3-9D45-7E8AF0AE8CC7}
+		{7220B8F4-83D0-456A-910B-BE821B243816} = {895466DB-AEF3-4FB3-9D45-7E8AF0AE8CC7}
+		{FDF79D64-3A53-44F2-A682-29B55983977D} = {31524EFA-554F-400A-AC63-128F1C10FDFE}
+		{02C664CC-82A8-495F-A01C-AC2C7E1B3405} = {31524EFA-554F-400A-AC63-128F1C10FDFE}
+	EndGlobalSection
+EndGlobal
